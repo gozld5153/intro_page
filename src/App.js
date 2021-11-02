@@ -11,7 +11,7 @@ const App = () => {
 
 
   useEffect(() => {
-    if(idx < 4){
+    if(idx < 7){
       setTimeout(() => {
         hh.current.children[idx].className = "fade"
         setIdx(idx + 1)
@@ -29,10 +29,13 @@ const App = () => {
     <div className="container">
       <div className="title" >
         <h1 ref={hh}>
-          <span>S</span>
-          <span>1</span>
-          <span>H</span>
-          <span>3</span>
+          <span>4</span>
+          <span>s</span>
+          <span>t</span>
+          <span>&nbsp;</span>
+          <span>M</span>
+          <span>a</span>
+          <span>n</span>
         </h1>
       </div>
       <div className="press">{tic ? null : "Press the Start Button"}</div>
